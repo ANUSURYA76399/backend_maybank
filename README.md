@@ -18,4 +18,19 @@ backend_maybank-main/ ├── main.py # Main script to run the statement gener
 git clone https://github.com/your-username/backend_maybank-main.git
 cd backend_maybank-main
 
-# backend_maybank
+Install required packages (if any):
+pip install -r requirements.txt
+
+Initialize the database:
+python init_db.py
+
+Generate a sample statement:
+python main.py
+
+Output Example
+The generated PDF includes:
+Cardholder information
+Credit card number (partially masked)
+Recent transactions
+Total amount due
+
